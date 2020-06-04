@@ -26,7 +26,7 @@ fi
 
 echo " "
 echo "Updating your UserBot"
-git pull https://github.com/marshmello61/UserBot.git
+git pull https://github.com/sahyam2019/oub-remix.git
 git push
 echo " "
 echo "Updated"
