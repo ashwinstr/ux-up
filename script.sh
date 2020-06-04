@@ -10,7 +10,7 @@ read userName
 echo " "
 
 # Check if user has forked or has the same repo name
-echo -n "Have you forked UserBot from marshmello61 or has the same repo name? [y/n]: "
+echo -n "Have you forked UserBot from abhinav6497 or has the same repo name? [y/n]: "
 read fork
 echo " "
 
