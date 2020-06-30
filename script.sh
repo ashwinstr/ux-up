@@ -32,6 +32,7 @@ fi
 echo " "
 echo "Updating your UserBot"
 git pull https://github.com/sahyam2019/oub-remix.git
+git commit -m "updated"
 git push
 echo " "
 echo "Updated"
