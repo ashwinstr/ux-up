@@ -1,4 +1,4 @@
-# Update script of UserBot by @marshmello61
+# Update script of oub-remix by @marshmello61
 
 repo="oub-remix"
 rm -rf ${repo}
@@ -11,7 +11,7 @@ read userName
 echo " "
 
 # Check if user has forked or has the same repo name
-echo -n "Have you forked UserBot from marshmello61 or has the same repo name i.e. oub-remix? [y/n]: "
+echo -n "Have you forked oub-remix from RoyalBoy69 or has the same repo name i.e. oub-remix? [y/n]: "
 read fork
 echo " "
 
