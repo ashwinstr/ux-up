@@ -1,4 +1,4 @@
-# Update script of oub-remix by @marshmello61
+# Update script of oub-remix by @RoyalBoy69
 
 repo="oub-remix"
 rm -rf ${repo}
