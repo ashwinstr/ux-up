@@ -11,7 +11,7 @@ read userName
 echo " "
 
 # Check if user has forked or has the same repo name
-echo -n "Have you forked oub-remix from RoyalBoy69 or has the same repo name i.e. oub-remix? [y/n]: "
+echo -n "Have you forked oub-remix from sahyam2019 or has the same repo name i.e. oub-remix? [y/n]: "
 read fork
 echo " "
 
