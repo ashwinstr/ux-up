@@ -1,4 +1,7 @@
-# Automated updating of bot
+# # Automatic Updator For oub-remix 
+
+
+![logo](https://telegra.ph/file/00897a31955863691f379.jpg)
 
 
 
