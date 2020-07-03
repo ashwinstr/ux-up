@@ -1,9 +1,9 @@
 # Update script of UserBot by @marshmello61
 
-repo="UserBot"
+repo="oub-remix"
 rm -rf ${repo}
 
-echo "You're running the UserBot Updater script by @marshmello61"
+echo "You're running the oub-remix Updater script by @RoyalBoy69"
 echo " "
 # Get username of user
 echo -n "Enter your GitHub username: "
@@ -11,7 +11,7 @@ read userName
 echo " "
 
 # Check if user has forked or has the same repo name
-echo -n "Have you forked UserBot from marshmello61 or has the same repo name i.e. UserBot? [y/n]: "
+echo -n "Have you forked UserBot from marshmello61 or has the same repo name i.e. oub-remix? [y/n]: "
 read fork
 echo " "
 
@@ -30,7 +30,7 @@ else
 fi
 
 echo " "
-echo "Updating your UserBot"
+echo "Updating your oub-remix"
 git pull https://github.com/sahyam2019/oub-remix.git
 git commit -m "Ho ja update"
 git push
