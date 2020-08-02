@@ -1,9 +1,12 @@
-# Update script of oub-remix by @RoyalBoy69
+ 
+# Update script of UserBot by @marshmello61
+#some fixes by @RoyalBoy69
+
 
 repo="oub-remix"
 rm -rf ${repo}
 
-echo "You're running the oub-remix Updater script by @RoyalBoy69"
+echo "You're running the oub-remix Updater script"
 echo " "
 # Get username of user
 echo -n "Enter your GitHub username: "
