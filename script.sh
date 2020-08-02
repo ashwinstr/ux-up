@@ -35,7 +35,6 @@ fi
 echo " "
 echo "Updating your oub-remix"
 git pull https://github.com/sahyam2019/oub-remix.git
-git add .
 git commit -m "Update Done 😎😎😎😎"
 git push
 echo " "
