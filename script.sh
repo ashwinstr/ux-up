@@ -1,6 +1,6 @@
  
-# Update script of UserBot by @marshmello61
-#some fixes by @RoyalBoy69
+#Update script of UserBot by @marshmello61
+#Some fixes by @RoyalBoy69
 
 
 repo="oub-remix"
