@@ -1,6 +1,7 @@
 #update script of userbot by AshSTR
 
 #get repo
+cd ..
 echo -n "OUB or OUB-remix? Select one for now: "
 read repo
 echo " "
