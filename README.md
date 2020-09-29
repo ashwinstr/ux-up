@@ -7,7 +7,7 @@
 
 ### Steps
 
-##### 1. Clone the repository in ##root folder.(if exists, then ignore)
+##### 1. Clone the repository in root folder. (Mandatory!) (If exists, then ignore)
 
 ```bash
 git clone https://github.com/ashwinstr/updatebot
