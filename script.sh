@@ -2,7 +2,7 @@
 
 #get repo
 cd ..
-echo -n "Which repo you want to udpate? (OUB or OUB-remix or any other) : "
+echo -n "Which repo you want to update? (OUB or OUB-remix or any other name) : "
 read repo
 echo " "
 
