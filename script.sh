@@ -36,7 +36,7 @@ else
 fi
 
 git add .
-git commit -m "Windows merge"
+git commit -m "Windows/termux merge"
 git push
 echo " "
 echo "Updated"
