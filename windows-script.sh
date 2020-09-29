@@ -2,7 +2,7 @@
 
 #get repo
 cd ..
-echo -n "OUB or OUB-remix? Select one for now: "
+echo -n "Which repo you want to udpate? (OUB or OUB-remix or any other) : "
 read repo
 echo " "
 
@@ -16,25 +16,10 @@ echo -n "Enter your github username: "
 read userName
 echo " "
 
-#check whether forked properly or not
-echo -n "Have you forked oub-remix from mkaraniya/sahyam2019 or has the same repo name i.e. OpenUserBot or oub-remix? [y/n]: "
-read fork
-echo " "
-
-if [[ "${fork}" = 'y' ]]; then
-	git clone https://github.com/${userName}/${repo}.git
-elif [["${fork}" = 'n' ]]; then
-	echo "Enter your repo name: "
-	read repo
-	git clone https://github.com/${userName}/${repo}.git
-else
-		echo "You were only supposed to enter y or n."
-		echo " "
-		exit 1
-fi
+git clone https://github.com/${userName}/${repo}.git
 
 echo " "
-echo "Updating your oub-remix..."
+echo "Updating your ${repo} repo..."
 echo " "
 cd ${repo}
 
@@ -44,6 +29,10 @@ fi
 
 if [[ "${repo}" = 'OUB-remix' ]]; then
 	git pull https://github.com/sahyam2019/oub-remix.git
+else
+	echo -n "Enter the upstream repo's username: "
+	read ${upstream}
+	git pull https://github.com/${upstream}/${repo}.git
 fi
 
 git add .
