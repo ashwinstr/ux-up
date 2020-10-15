@@ -3,39 +3,60 @@
 
 ![logo](https://telegra.ph/file/5d7ae2ff8065f57ee5e4b.jpg)
 
-First time setup for termux. 
+### First time setup for termux. 
 
 1. Clone your repo
 ```bash
-git clone https://github.com/username/yourrepo.git```
+git clone https://github.com/username/yourrepo.git
+```
+"username" is your github username.
+"yourrepo" is your repo name.
 
-2. cd yourrepo
+2. Go in the repo directory
+```bash
+cd yourrepo
+```
 
-3. git remote add upstream https://github.com/sahyam2019/oub-remix.git
-
+3. Add upstream repo
+```bash
+git remote add upstream https://github.com/sahyam2019/oub-remix.git
+```
 (for OUB-remix)
 
 Or
 
+```bash
 git remote add upstream https://github.com/mkaraniya/OpenUserBot.git
-
+```
 (for OUB) 
 
-4. git config --global user.email "you@example.com"
-
+4. Add email id
+```bash
+git config --global user.email "you@example.com"
+```
 replace you@example.com with your email
 
-5. git config --global user.name "user name"
+5. Add username of email
+```bash
+git config --global user.name "user name"
+```
 
-6. git commit -m "termux update"
+6. Commit
+```bash
+git commit -m "termux update"
+```
 
-7. 𝙣𝙤𝙬 𝙩𝙮𝙥𝙚 
-
+7. Pull upstream
+```bash
 git pull upstream sql-extended
+```
 
-8. git push
+8. Push
+```bash
+git push
+```
 
-### Steps
+### Steps after first time setup
 
 ##### 1. Clone the repository in root folder. (Mandatory!) (If exists, then ignore)
 
