@@ -3,7 +3,37 @@
 
 ![logo](https://telegra.ph/file/5d7ae2ff8065f57ee5e4b.jpg)
 
+First time setup for termux. 
 
+1. Clone your repo
+```bash
+git clone https://github.com/username/yourrepo.git```
+
+2. cd yourrepo
+
+3. git remote add upstream https://github.com/sahyam2019/oub-remix.git
+
+(for OUB-remix)
+
+Or
+
+git remote add upstream https://github.com/mkaraniya/OpenUserBot.git
+
+(for OUB) 
+
+4. git config --global user.email "you@example.com"
+
+replace you@example.com with your email
+
+5. git config --global user.name "user name"
+
+6. git commit -m "termux update"
+
+7. 𝙣𝙤𝙬 𝙩𝙮𝙥𝙚 
+
+git pull upstream sql-extended
+
+8. git push
 
 ### Steps
 
