@@ -27,7 +27,7 @@ if [[ "${repo}" = 'OUB' ]]; then
 	git pull https://github.com/mkaraniya/OpenUserBot.git
 fi
 
-if [[ "${repo}" = 'OUB-remix' ]] or [[ "${repo}" = 'OUB-remix-alt']]; then
+if [[ "${repo}" = 'OUB-remix' ]] || [[ "${repo}" = 'OUB-remix-alt']]; then
 	git pull https://github.com/sahyam2019/oub-remix.git
 else
 	echo -n "Enter the upstream repo's username: "
