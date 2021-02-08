@@ -2,19 +2,15 @@
 
 #get repo
 cd ..
-echo -n "Which repo you want to update? (OUB or OUB-remix or any other name) : "
-read repo
-echo " "
+repo = "USERGE-X"
 
 rm -rf ${repo}
 
-echo "You're running the OUB-remix update script."
+echo "You're running the USERGE-X update script."
 echo " "
 
 #get username of user
-echo -n "Enter your github username: "
-read userName
-echo " "
+userName = ashwinsutar1996
 
 git clone https://github.com/${userName}/${repo}.git
 
@@ -23,21 +19,8 @@ echo "Updating your ${repo} repo..."
 echo " "
 cd ${repo}
 
-if [[ "${repo}" = 'OUB' ]]; then
-	git pull https://github.com/mkaraniya/OpenUserBot.git
-fi
-
-if [[ "${repo}" = 'OUB-remix' ]]; then
-	git pull https://github.com/sahyam2019/oub-remix.git
-fi
-
-if [[ "${repo}" = 'OUB-remix-alt' ]]; then
-	git pull https://github.com/sahyam2019/oub-remix.git 
-else
-	echo -n "Enter the upstream repo's username: "
-	read ${upstream}
-	git pull https://github.com/${upstream}/${repo}.git
-fi
+git pull {repo}" = 'OUB' ]]; then
+	git pull https://github.com/ashwinstr/UX-kakashi.git
 
 git add .
 git commit -m "Windows/termux merge"
