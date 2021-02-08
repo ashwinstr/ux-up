@@ -19,8 +19,7 @@ echo "Updating your ${repo} repo..."
 echo " "
 cd ${repo}
 
-git pull {repo}" = 'OUB' ]]; then
-	git pull https://github.com/ashwinstr/UX-kakashi.git
+git pull https://github.com/ashwinstr/UX-kakashi.git
 
 git add .
 git commit -m "Windows/termux merge"
