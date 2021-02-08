@@ -10,7 +10,7 @@ echo "You're running the USERGE-X update script."
 echo " "
 
 #get username of user
-userName = ashwinsutar1996
+userName = "ashwinsutar1996"
 
 git clone https://github.com/${userName}/${repo}.git
 
