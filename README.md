@@ -19,16 +19,8 @@ cd yourrepo
 
 ##### 3. Add upstream repo
 ```bash
-git remote add upstream https://github.com/sahyam2019/oub-remix.git
+git remote add upstream https://github.com/ashwinstr/UX-kakashi.git
 ```
-(for OUB-remix)
-
-Or
-
-```bash
-git remote add upstream https://github.com/mkaraniya/OpenUserBot.git
-```
-(for OUB) 
 
 ##### 4. Add email id
 ```bash
@@ -61,7 +53,7 @@ git push
 ##### 1. Clone the repository in root folder. (Mandatory!) (If exists, then ignore)
 
 ```bash
-git clone https://github.com/ashwinstr/updatebot
+git clone https://github.com/ashwinsutar1996/UX-update
 ```
 
 ##### 2. Run the below command to run the script
@@ -83,7 +75,7 @@ The script will do the process automatically
 #### 1. Clone the repository in github folder where other repos are in local. (Mandatory!) (Ignore if exists.)
 
 ```bash
-git clone https://github.com/ashwinstr/updatebot
+git clone https://github.com/ashwinsutar1996/UX-update
 ```
 
 #### 2. Open script.sh
