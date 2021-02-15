@@ -20,6 +20,7 @@ if [[ "${u_n}" == "k-m" ]]; then
 	git pull
 	git pull https://github.com/ashwinstr/UX-kakashi.git
 	repo="USERGE-X"
+fi
 
 if [[ "${u_n}" == "k-u" ]]; then
 	rm -rf UX-kakashi
@@ -28,6 +29,7 @@ if [[ "${u_n}" == "k-u" ]]; then
 	git pull
 	git pull https://github.com/code-rgb/USERGE-X.git
 	repo="UX-kakashi"
+fi
 
 if [[ "${u_n}" == "i-m" ]]; then
 	rm -rf ux-exp
@@ -36,6 +38,7 @@ if [[ "${u_n}" == "i-m" ]]; then
 	git pull
 	git pull https://github.com/ashwinstr/UX-itachi.git
 	repo="ux-exp"
+fi
 
 if [[ "${u_n}" == "i-u" ]]; then
 	rm -rf UX-itachi
@@ -44,6 +47,7 @@ if [[ "${u_n}" == "i-u" ]]; then
 	git pull
 	git pull https://github.com/code-rgb/USERGE-X.git
 	repo="UX-itachi"
+fi
 
 echo " "
 echo "Updating your ${repo} repo..."
