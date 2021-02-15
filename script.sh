@@ -2,6 +2,9 @@
 
 cd ..
 
+echo -n "Termux or Windows (t/w): "
+read platform
+
 echo " "
 echo """###You're running the USERGE-X update script.###"""
 echo " "
@@ -53,4 +56,6 @@ echo " "
 echo "Updated"
 echo " "
 cd ..
-cmd /k
+
+if [[ "${platform}" == "w" ]]; then
+	cmd /k
