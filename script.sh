@@ -1,4 +1,4 @@
-#update script of userbot by AshSTR
+# update script of userbot by AshSTR
 
 cd ..
 
