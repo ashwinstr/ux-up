@@ -54,6 +54,7 @@ echo "Updating your ${repo} repo..."
 echo " "
 
 git add .
+git diff
 git commit -m "Windows/termux merge"
 git push
 echo " "
