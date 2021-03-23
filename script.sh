@@ -7,7 +7,7 @@ echo """###You're running the USERGE-X update script.###"""
 echo " "
 
 #get username of user
-echo -n "Kakashi or Itachi or difference (k)/(i)/(d): "
+echo -n "Kakashi or Itachi or gpack (k)/(i)/(g): "
 read u_n
 
 if [[ "${u_n}" == "k" ]]; then
@@ -26,6 +26,15 @@ if [[ "${u_n}" == "i" ]]; then
 	git pull
 	git pull https://github.com/code-rgb/USERGE-X.git
 	repo="UX-itachi"
+fi
+
+if [[ "${u_n}" == "g" ]]; then
+        rm -rf MyGpack
+        git clone https://github.com/ashwinstr/MyGpack.git
+        cd MyGpack
+        git pull
+        git pull https://github.com/code-pms/MyGpack.git
+        repo="MyGpack"
 fi
 
 echo " "
