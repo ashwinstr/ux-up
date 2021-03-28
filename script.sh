@@ -49,7 +49,3 @@ echo " "
 echo "Updated"
 echo " "
 cd ..
-
-if [[ "${platform}" == "w" ]]; then
-	cmd /k
-fi
