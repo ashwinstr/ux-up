@@ -7,7 +7,7 @@ echo """###You're running the USERGE-X update script.###"""
 echo " "
 
 #get username of user
-echo -n "Kakashi or Itachi or gpack (k)/(i)/(g): "
+echo -n "Kakashi or Itachi or gpack repo? (k)/(i)/(g): "
 read u_n
 
 if [[ "${u_n}" == "k" ]]; then
