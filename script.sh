@@ -1,6 +1,11 @@
-# update script of userbot by AshSTR
+### update script of userbot by @Kakashi_HTK/@ashwinstr ###
 
-cd ..
+# get working directory
+pwd = pwd
+
+if pwd == "*/ux-update" ; then
+    cd ..
+fi
 
 echo " "
 echo """### You're running the USERGE-X update script. ###"""
@@ -48,3 +53,4 @@ git diff
 echo " "
 echo "### UPDATED ###"
 echo " "
+cd ..
