@@ -43,7 +43,7 @@ if [[ "${u_n}" == "g" ]]; then
 fi
 
 if u_n == "t" ; then
-    echo "Test started."
+    echo "### TEST ###"
     exit 1
 fi
 
