@@ -3,7 +3,7 @@
 cd ..
 
 echo " "
-echo """###You're running the USERGE-X update script.###"""
+echo """### You're running the USERGE-X update script. ###"""
 echo " "
 
 #get username of user
@@ -46,6 +46,5 @@ git commit -m "Windows/termux merge"
 git push
 git diff
 echo " "
-echo "Updated"
+echo "### UPDATED ###"
 echo " "
-cd ..
