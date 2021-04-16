@@ -42,6 +42,7 @@ if [[ "${u_n}" == "t" ]]; then
     if [[ nwd == "*/ux-update" ]]; then
         echo "Done 'cd ..'"
         cd ..
+    fi
     return
 fi
 
