@@ -1,11 +1,5 @@
 ### update script of userbot by @Kakashi_HTK/@ashwinstr ###
 
-# get working directory
-pwd = pwd
-
-if pwd == "/data/data/com.termux/files/home/ux-update" ; then
-    cd ..
-fi
 
 echo " "
 echo """### You're running the USERGE-X update script. ###"""
@@ -42,7 +36,7 @@ if [[ "${u_n}" == "g" ]]; then
         repo="MyGpack"
 fi
 
-if "${u_n}" == "t" ; then
+if [[ "${u_n}" == "t" ]]; then
     echo "### TEST ###"
     exit 1
 fi
