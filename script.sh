@@ -38,6 +38,10 @@ fi
 
 if [[ "${u_n}" == "t" ]]; then
     echo "### TEST ###"
+    echo " "
+    if [[ nwd == "*/ux-update" ]]; then
+        echo "Done 'cd ..'"
+        cd ..
     return
 fi
 
