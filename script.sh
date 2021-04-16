@@ -38,7 +38,7 @@ fi
 
 if [[ "${u_n}" == "t" ]]; then
     echo "### TEST ###"
-    exit 1
+    return
 fi
 
 echo " "
