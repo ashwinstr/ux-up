@@ -12,7 +12,7 @@ echo """### You're running the USERGE-X update script. ###"""
 echo " "
 
 #get username of user
-echo -n "Kakashi or Itachi or gpack repo? (k)/(i)/(g): "
+echo -n "Kakashi or Itachi or gpack repo or just test? (k)/(i)/(g)/(t): "
 read u_n
 
 if [[ "${u_n}" == "k" ]]; then
@@ -40,6 +40,11 @@ if [[ "${u_n}" == "g" ]]; then
         git pull
         git pull https://github.com/code-pms/MyGpack.git
         repo="MyGpack"
+fi
+
+if u_n == "t" ; then
+    echo "Test started."
+    exit 1
 fi
 
 echo " "
