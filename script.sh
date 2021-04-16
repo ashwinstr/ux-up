@@ -3,7 +3,7 @@
 # get working directory
 pwd = pwd
 
-if pwd == "*/ux-update" ; then
+if pwd == "/data/data/com.termux/files/home/ux-update" ; then
     cd ..
 fi
 
