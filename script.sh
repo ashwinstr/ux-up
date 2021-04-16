@@ -42,7 +42,7 @@ if [[ "${u_n}" == "g" ]]; then
         repo="MyGpack"
 fi
 
-if u_n == "t" ; then
+if "${u_n}" == "t" ; then
     echo "### TEST ###"
     exit 1
 fi
