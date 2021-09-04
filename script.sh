@@ -1,19 +1,19 @@
 ### update script for USERGE-X by @Kakashi_HTK/@ashwinstr ###
 
-from creds import username, repo, upstream
+./creds.sh
 
 echo " "
 echo """### You're running the USERGE-X fork update script. ###"""
 echo " "
 
-user_n = username
-repo_ = repo
-up_ = upstream
+user_n = ${username}
+repo_ = ${repo}
+up_ = ${upstream}
 
 git clone https://github.com/${user_n}/${repo_}
 cd ${repo_}
 git pull
-git pull ${upstream}
+git pull ${up_}
 git diff
 
 echo " "
