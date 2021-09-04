@@ -1,3 +1,3 @@
-export username = "ashwinstr"
-export repo = "UX-jutsu"
-export upstream = "https://github.com/code-rgb/USERGE-X.git"
+export username = "ashwinstr" # your username of github account
+export repo = "UX-jutsu" # your fork or cloned repo's name
+export upstream = "https://github.com/code-rgb/USERGE-X.git" # the upstream repo link from which the commits will be pulled
