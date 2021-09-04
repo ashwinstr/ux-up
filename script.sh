@@ -38,6 +38,6 @@ git push
 echo " "
 echo "### UPDATED ###"
 echo " "
-echo "### NOTE: Based on the conflicts occured in this merge, you might need to repo '<<<<<HEAD' from the merged repo or it might crash the bot. ###"
+echo "### NOTE: Based on the conflicts occured in this merge, you might need to remove '<<<<<HEAD' from the merged repo or it might crash the bot. ###"
 echo " "
 cd ..
