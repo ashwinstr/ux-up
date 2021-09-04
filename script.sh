@@ -6,14 +6,10 @@ echo " "
 echo """### You're running the USERGE-X fork update script. ###"""
 echo " "
 
-user_n = ${username}
-repo_ = ${repo}
-up_ = ${upstream}
-
-git clone https://github.com/${user_n}/${repo_}
-cd ${repo_}
+git clone https://github.com/${username}/${repo}
+cd ${repo}
 git pull
-git pull ${up_}
+git pull ${upstream}
 git diff
 
 echo " "
