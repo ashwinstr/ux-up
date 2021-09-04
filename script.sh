@@ -1,6 +1,6 @@
 ### update script for USERGE-X by @Kakashi_HTK/@ashwinstr ###
 
-./creds.sh
+. ./creds.sh
 
 echo " "
 echo """### You're running the USERGE-X fork update script. ###"""
