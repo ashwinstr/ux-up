@@ -1,31 +1,19 @@
 ### update script for USERGE-X by @Kakashi_HTK/@ashwinstr ###
 
+from creds import username, repo, upstream
 
 echo " "
 echo """### You're running the USERGE-X fork update script. ###"""
 echo " "
 
-#get username of user
-echo -n "Enter your github username of your fork/clone: "
-read u_n
+user_n = username
+repo_ = repo
+up_ = upstream
 
-echo -n "Updating fork(f) or clone(c): "
-read fork
-
-if [[ "${fork}" == "c" ]]; then
-    echo -n "Enter forked repo's name: "
-    read repo
-elif [[ "${fork}" == "f" ]]; then
-    repo = "USERGE-X"
-else
-    echo "Enter either 'f' or 'c' please..."
-    return
-fi
-
-git clone https://github.com/${u_n}/${repo}
-cd ${repo}
+git clone https://github.com/${user_n}/${repo_}
+cd ${repo_}
 git pull
-git pull https://github.com/code-rgb/USERGE-X
+git pull ${upstream}
 git diff
 
 echo " "
