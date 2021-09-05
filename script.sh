@@ -1,5 +1,7 @@
 #!/bin/sh
 
+. $PWD/creds.sh
+
 ### update script for USERGE-X by @Kakashi_HTK/@ashwinstr ###
 
 echo " "
