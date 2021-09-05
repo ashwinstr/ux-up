@@ -4,6 +4,7 @@
 
 ### update script for USERGE-X by @Kakashi_HTK/@ashwinstr ###
 
+cd ..
 echo " "
 echo """### You're running the USERGE-X fork update script. ###"""
 echo " "
