@@ -20,7 +20,7 @@ git clone https://github.com/ashwinstr/ux-up.git
 
 ##### 2. Run the script
 ```bash
-. ux-up/s*
+cd ux-up && sh s*
 ```
 
 ![logo](https://telegra.ph/file/5d7ae2ff8065f57ee5e4b.jpg)
